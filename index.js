@@ -5,7 +5,7 @@ const port = 3001;
 
 app.use(
   cors({
-    origin: ['https://8c29-1-235-113-2.ngrok-free.app', '*'],
+    origin: ['https://8c29-1-235-113-2.ngrok-free.app', 'https://dev-locian-cms.knowre.com/', '*'],
     credentials: true
   })
 );
