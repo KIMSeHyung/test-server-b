@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 });
 
 app.post('/post', (req, res) => {
-  res.send(req.body)
+  res.send('포스트 왔음 B')
 });
 
 app.listen(port, () => {
